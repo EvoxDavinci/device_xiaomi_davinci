@@ -18,6 +18,57 @@
     <!-- Ambient settings -->
     <string name="ambient_enable">Use ambient display</string>
 
+    <!-- Doze settings -->
     <string name="doze_brightness_title">Always on brightness</string>
     <string name="doze_brightness_summary">%s mode is enabled</string>
+
+    <!-- Popup camera settings -->
+    <string name="popup_title">Front camera settings</string>
+    <string name="popup_led_title">Camera LED</string>
+    <string name="popup_led_summary">Enable LED light while the front camera appears and retracts</string>
+    <string name="popup_sound_title">Sound effects</string>
+    <string name="popup_sound_muqin">Xylophone</string>
+    <string name="popup_sound_yingyan">Condor</string>
+    <string name="popup_sound_mofa">Magic</string>
+    <string name="popup_sound_jijia">Mecha</string>
+    <string name="popup_sound_chilun">Gearwheel</string>
+    <string name="popup_sound_cangmen">Cabin door</string>
+    <string name="popup_calibration_title">Calibration</string>
+    <string name="popup_calibration_summary">Calibrate the popup camera motor</string>
+    <string name="popup_calibration_warning_title">Motor calibration</string>
+    <string name="popup_calibration_warning_text">Unnecessary use of calibration may cause permanent damage. It is recommended to calibrate the popup camera motor only in case of it not moving properly or it being in incorrect position!</string>
+
+    <!-- Popup camera strings -->
+    <string name="popup_camera_tip">Warning</string>
+    <string name="popup_camera_takeback_failed_calibrate">Couldn\'t close front camera. Try calibrating the motor.</string>
+    <string name="popup_camera_popup_failed_calibrate">Couldn\'t open front camera. Try calibrating the motor.</string>
+    <string name="popup_camera_calibrate_running">Front camera cannot be used during calibration.</string>
+    <string name="popup_camera_calibrate_now">Calibrate</string>
+    <string name="popup_camera_calibrate_failed">Couldn\'t calibrate</string>
+    <string name="popup_camera_calibrate_success">Calibrated successfully. You can open the front camera now.</string>	
+
+    <!-- Thermal Profiles -->
+    <string name="thermal_title">Thermal Profiles and Game Mode</string>
+    <string name="thermal_summary">Adjust per-app thermal and touchscreen profiles for optimum performance</string>
+    <string name="thermal_default">Default</string>
+    <string name="thermal_benchmark">Benchmark</string>
+    <string name="thermal_browser">Browser</string>
+    <string name="thermal_camera">Camera</string>
+    <string name="thermal_dialer">Dialer</string>
+    <string name="thermal_gaming">Gaming</string>
+    <string name="thermal_streaming">Streaming</string>
+
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Clear speaker</string>
+    <string name="clear_speaker_summary">Play a 30-second audio to clear the speaker</string>
+    <string name="clear_speaker_description">Run this feature once or twice if you find that your speaker is lightly blocked by dust. Set media volume to maximum.\n\nIf the speaker is blocked heavily, run this feature 2-5 times while shaking your device with the speaker facing downwards.\n\nWARNING: Ensure that any headphones are unplugged.</string>
+  
+     <!-- Raise to wake strings-->
+    <string name="raise_to_wake_gesture_title">Raise to wake</string>
+
+    <!-- Vibration -->
+    <string name="vibration_control_title">Vibration control</string>
+    <string name="vibration_control_summary">Adjust the vibration strength</string>
+    <string name="vibration_reset">The default value is set</string>
+    <string name="vibration_control_description">Define the strength of the vibration for haptic feedback, incoming call and incoming notification</string> 
 </resources>

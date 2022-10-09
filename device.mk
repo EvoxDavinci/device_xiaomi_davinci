@@ -123,11 +123,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera motor
 PRODUCT_PACKAGES += \
-    vendor.xiaomi.hardware.motor@1.0.vendor \
-    XiaomiPopupCamera
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/motor/vendor.xiaomi.hardware.motor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.motor@1.0-service.rc
+    vendor.xiaomi.hardware.motor@1.0.vendor
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
