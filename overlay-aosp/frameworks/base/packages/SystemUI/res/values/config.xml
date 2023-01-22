@@ -25,8 +25,8 @@
             0 - GLOBAL HBM
             1 - LOCAL HBM
     -->
-    <integer name="config_udfps_Hbm_Type">0</integer>
+    <integer name="config_udfpsHbmType">0</integer>
 	
     <!-- Udfps vendor code -->
-    <integer name="config_udfps_Vendor_Code">22</integer>
+    <integer name="config_udfps_vendor_code">22</integer>
 </resources>
