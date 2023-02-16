@@ -33,4 +33,9 @@
 
     <!-- Location on the screen of the center of the fingerprint sensor. -->
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">1900px</dimen>
+
+    <!-- package name of a built-in camera app to use to restrict implicit intent resolution
+         when the double-press power gesture is used. Ignored if empty. -->
+    <string name="config_cameraGesturePackage" translatable="false">com.android.camera</string>
+    <string name="google_camera_app_package_name" translatable="false">com.android.camera</string>
 </resources>
