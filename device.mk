@@ -352,7 +352,7 @@ PRODUCT_PACKAGES += \
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-evolution
+    $(LOCAL_PATH)/overlay-ancient
 
 PRODUCT_ENFORCE_RRO_TARGETS += *
 
